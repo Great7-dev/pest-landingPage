@@ -52,18 +52,18 @@ const Landingpage = () => {
         </div>
       </nav>
       <div>
-        <section ref={homeRef} className="mt-[8.5em]">
+        <section ref={homeRef} className="mt-[8.5em] scroll-mt-[8rem]">
           <Slider />
         </section>
-        <section ref={aboutRef} className="scroll-mt-20">
+        <section ref={aboutRef} className="scroll-mt-[8rem]">
           <About />
         </section>
-        <section ref={servicesRef} className="scroll-mt-20">
+        <section ref={servicesRef} className="scroll-mt-[8rem]">
           <Offer />
         </section>
         <Review />
         <Faq />
-        <section ref={contactRef} className="scroll-mt-20">
+        <section ref={contactRef} className="scroll-mt-[8rem]">
           <Contact />
         </section>
         <Footer />
