@@ -46,19 +46,19 @@ const Landingpage = () => {
         </ul>
         <div className="flex items-center space-x-2">
           <IoIosCall className="text-red-500" />
-          <p className="text-white font-bold text-xl font-sans">
+          <p className="text-white font-bold text-l font-sans">
             Call Us +234 7067653341
           </p>
         </div>
       </nav>
       <div>
-        <section ref={homeRef} className="mt-[8.5em] scroll-mt-[8rem]">
+        <section ref={homeRef} className="mt-[9em] scroll-mt-[10rem]">
           <Slider />
         </section>
-        <section ref={aboutRef} className="scroll-mt-[8rem]">
+        <section ref={aboutRef} className="scroll-mt-[12rem]">
           <About />
         </section>
-        <section ref={servicesRef} className="scroll-mt-[8rem]">
+        <section ref={servicesRef} className="scroll-mt-[10rem]">
           <Offer />
         </section>
         <Review />
